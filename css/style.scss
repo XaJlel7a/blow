@@ -1,4 +1,9 @@
-header{
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
   width: 100%;
   height: 100vh;
   background: url("../images/body_sect.gif");
@@ -6,7 +11,31 @@ header{
 
 }
 
-.container{
-  margin: auto;
-  max-width: 1094px;
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 88px;
+  padding-right: 100px;
+
+}
+a{
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.menu_list_item{
+  padding: 15px;
+  text-transform: lowercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+
+}
+.menu_list:hover{
+  color: white;
+  border-radius: 40px;
+  background-color: black;
+  }
+.btn{
+  text-align: center;
 }
